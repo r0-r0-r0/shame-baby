@@ -3,9 +3,13 @@ body {
   }
   
   h1 {
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bodoni Moda', serif; /* Font family and fallback */
+    font-weight: 400;                 /* Font weight */
+    font-style: italic;               /* Font style */
   }
   
   p {
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bodoni Moda', serif; /* Font family and fallback */
+    font-weight: 400;                 /* Font weight */
+    font-style: italic;               /* Font style */
   }
