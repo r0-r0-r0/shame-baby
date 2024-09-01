@@ -6,7 +6,7 @@ body {
     font-family: 'Bodoni Moda', serif; /* Font family and fallback */
     font-weight: 400;                 /* Font weight */
     font-style: italic;               /* Font style */
-    font-size: 300px;
+    font-size: 50vh;
   }
   
   p {
