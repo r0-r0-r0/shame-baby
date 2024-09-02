@@ -6,7 +6,7 @@ body {
     font-family: 'Bodoni Moda', serif; /* Font family and fallback */
     font-weight: 400;                 /* Font weight */
     font-style: italic;               /* Font style */
-    font-size: 30px;
+    font-size: 30vw;
   }
   
   p {
@@ -17,12 +17,12 @@ body {
 
 
   button {
-    background-color: #007BFF; /* Button background color */
+    background-color: #e291a3; /* Button background color */
     color: white;              /* Button text color */
-    padding: 10px 20px;        /* Button padding */
-    font-size: 70px;           /* Button text size */
+    padding: 1vw 2vw;        /* Button padding */
+    font-size: 20vw;           /* Button text size */
     border: none;              /* Remove default button border */
-    border-radius: 5px;        /* Rounded corners */
+    border-radius: 5vw;        /* Rounded corners */
     cursor: pointer;           /* Cursor changes to pointer when hovering */
     transition: background-color 0.3s; /* Smooth transition on hover */
   }
