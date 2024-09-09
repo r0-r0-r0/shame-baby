@@ -19,15 +19,13 @@
    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
    <script src="https://raw.githack.com/AR-js-org/AR.js/3.3.2/aframe/build/aframe-ar.js"></script>
    
-   <!-- Glow Shader -->
-   <script src="src/glow.js"></script>
 </head>
 <body>
   <!-- AR.js Scene -->
   <a-scene vr-mode-ui="false" embedded arjs="trackingMethod: best;">
     <!-- Image marker and AR content -->
     <a-marker type="pattern" url="pattern-aro.patt">
-        <a-entity gltf-model="baby.gltf" glow="enabled:true; scale:0.3; color: #FF00FF; c: 0.8; p: 1.5;" position="0 0 0"></a-entity>
+        <a-entity gltf-model="baby.gltf" material="color: #FF69B4" position="0 0 0"></a-entity>
         
         <a-text value="Yayyyyyyyyyyyyyyyyyy" position="0 2 0" color="#ff002f"></a-text>
     </a-marker>
